@@ -13,6 +13,26 @@ body {
   font-family: helvetica, arial, sans-serif;
   -webkit-touch-callout: none;
 }
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+h1, h3 {
+  margin: 10px auto;
+  text-align: center;
+}
+h3 {
+  width: 300px;
+  text-align: justify;
+  text-align-last: center;
+}
+h3 span {
+  display: block;
+  font-size: 115%;
+  text-align: center;
+}
 a {
   display: inline-block;
   position: relative;
@@ -51,4 +71,12 @@ a:after {
 a img {
   height: 8vmin;
   vertical-align: middle;
+}
+p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  text-align: center;
 }
